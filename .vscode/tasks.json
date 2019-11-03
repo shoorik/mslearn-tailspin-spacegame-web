@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Tailspin.SpaceGame.Web.csproj",
+                "${workspaceFolder}/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Tailspin.SpaceGame.Web.csproj",
+                "${workspaceFolder}/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Tailspin.SpaceGame.Web.csproj",
+                "${workspaceFolder}/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
